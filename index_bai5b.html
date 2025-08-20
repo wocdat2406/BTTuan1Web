@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bai 5b</title>
     <style>
-        table, td, th{
-            border: 1px solid black;
+        td, th {
+            border: 1px solid black;   
+        }
+
+        table {
+            border: 3px solid purple;   
             border-collapse: collapse;
         }
+
         body {
-            border: 1px solid #000;
+            border: 2px solid gray;  /* nếu muốn cả khung ngoài body cũng màu tím */
             padding: 5px;
         }
+
     </style>
 </head>
 <body>
@@ -37,6 +43,53 @@
         <tr>
             <th>6:30</th>
             <td colspan="7">Local news</td>
+        </tr>
+
+        <tr>
+            <th>7:00</th>
+            <td rowspan="2" style="vertical-align: top;">Opera Frest</td>
+            <td rowspan="2" style="vertical-align: top;">Radi U</td>
+            <td rowspan="2" style="vertical-align: top;">Science</td>
+            <td rowspan="2" style="vertical-align: top;">The living world</td>
+            <td>Word Play</td>
+            <td>Agru Week</td>
+            <td rowspan="2"style="vertical-align: top;">Flok Fets</td>
+        </tr>
+
+        <tr>
+            <th>7:30</th>
+            <td>Brain Stew</td>
+            <td>Bismark Forum</td>
+        </tr>
+
+        <tr>
+            <th>8:00</th>
+            <td rowspan="4" colspan="4" style="vertical-align: top;">The Class musical connection</td>
+            <td>Old time Radio</td>
+            <td rowspan="4" style="vertical-align: top;">Saturday Nite Jazz</td>
+            <td rowspan="4" style="vertical-align: top;">The Indie Connection</td>
+
+            
+        </tr>
+
+        <tr>
+            <th>8:30</th>
+            <td>The Inner Mind</td>
+        </tr>
+
+        <tr>
+            <th>9:00</th>
+            <td>Open Mike Nite</td>
+        </tr>
+
+        <tr>
+            <th>9:30</th>
+            <td>Relax</td>
+        </tr>
+
+        <tr>
+            <th>10:00</th>
+            <td colspan="7">World News Feed</td>
         </tr>
     </table>
 </body>
