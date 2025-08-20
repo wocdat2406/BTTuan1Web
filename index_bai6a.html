@@ -11,8 +11,15 @@
             margin: 2px;
         }
 
+        form {
+            width: 500px; 
+            margin: 0 auto;
+            display: block;
+            line-height: 1.4;
+            white-space: nowrap;
+        }
        
-
+        
     </style>
 </head>
 <body>
@@ -26,12 +33,30 @@
         <!-- Cach 2 -->
         <!-- <img src="/img/jackson_electronic.jpg" style="display: block; margin-left: auto; margin-right: auto;"> -->
          
-        <div id = "dau" style="text-align: center;">
+        <div id = "dau" class="form-row">
             <form action="">
-                <label for="fname" style="margin-right: 100px;">First Name:</label>
+                <label for="fname" style="margin-right: 80px;">First Name:</label>
                 <input type="text" size="15" name="" id="">
                 <label for="lname">Last Name:</label>
+                <input type="text" size="10" name="" id=""><br>
+
+                <label for="add#1" style="margin-right: 80px;">Address #1:</label>
+                <input type="text" size="28" name="" id=""> <br>
+
+                <label for="add#2" style="margin-right: 80px;">Address #2:</label>
+                <input type="text" size="28" name="" id=""> <br>
+
+                <label for="city" style="margin-right: 125px;">City:</label>
                 <input type="text" size="15" name="" id="">
+                <label for="sta">State:</label>
+                <input type="text" size="3" name="" id="">
+                <label for="zip">Zip:</label>
+                <input type="text" size="5" name="" id=""><br>
+
+                <label for="coun" style="margin-right: 100px;">Country:</label>
+                <input type="text" size="15" name="" id="" value="United States">
+
+                <hr>
             </form>
         </div>
         
