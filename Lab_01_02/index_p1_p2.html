@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phan 1 - 2</title>
     <style>
-        body {
-            border: 1px solid black;
-            padding: 5px;
-            line-height: 1.6;
-        }
+        
         b {
             color: rgb(185, 4, 4);
             font-size: large;
@@ -22,6 +18,27 @@
         table, td, th{
             border: 1px solid #000;
         }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+            }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+            }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+            }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            }
     </style>
 </head>
 <body>
@@ -117,20 +134,47 @@
             <input type="submit" value="Submit">
             <hr>
         </div>
+
+        <!-- 6.	Hiển thị ảnh đại diện và mô tả ảnh -->
+        <div>
+            <figure>
+                <img src="/img/avt2.png" alt="" width="200px" height="auto">
+                <figcaption>Đây là ảnh đại diện của tôi</figcaption>
+            </figure>
+            <hr>
+        </div>
+
+        <div class="gallery">
+            <a href="/img/gal2.jpg" target="_blank">
+                <img src="/img/gal2.jpg" alt="" height="150px" width="auto">
+            </a>
+            <div class="desc">Lionel Messi is a world Cup Champion</div>
+        </div>
+
+        <div class="gallery">
+            <a href="/img/gal3.jpg" target="_blank">
+                <img src="/img/gal3.jpg" alt="" height="150px" width="auto">
+            </a>
+            <div class="desc">Lionel Messi is a world Cup Champion</div>
+        </div>
+
+        <div class="gallery">
+            <a href="/img/gal4.jpg" target="_blank">
+                <img src="/img/gal4.jpg" alt="" height="150px" width="auto">
+            </a>
+            <div class="desc">Lionel Messi vs ManU at UCL</div>
+        </div>
+
+        <div class="gallery">
+            <a href="/img/gal5.jpg" target="_blank">
+                <img src="/img/gal5.jpg" alt="" height="150px" width="auto">
+            </a>
+            <div class="desc">Lionel Messi celebration</div>
+        </div>
     </div>
 
-    <!-- 6.	Hiển thị ảnh đại diện và mô tả ảnh -->
-    <div>
-        <figure>
-            <img src="/img/avt2.png" alt="" width="200px" height="auto">
-            <figcaption>Đây là ảnh đại diện của tôi</figcaption>
-        </figure>
-        <hr>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href=""></a>
-    </div>
+    
+    
    
 </body>
 </html>
